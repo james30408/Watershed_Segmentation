@@ -1,0 +1,20 @@
+﻿已經開始建置於 2018/5/28 下午 12:45:57。
+     1>節點 2 (Build 目標) 上的專案 "C:\Users\張睿哲\Desktop\VS12_張睿哲_E24031019_Project\hw3\hw3\hw3.vcxproj"。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt Source.cpp
+         Source.cpp
+     1>Source.cpp(107): warning C4244: '=' : 將 'double' 轉換為 'short'，由於型別不同，可能導致資料遺失
+     1>Source.cpp(117): warning C4244: '=' : 將 'double' 轉換為 'short'，由於型別不同，可能導致資料遺失
+     1>Source.cpp(121): warning C4244: '=' : 將 'double' 轉換為 'uchar'，由於型別不同，可能導致資料遺失
+     1>Source.cpp(257): warning C4267: '=' : 將 'size_t' 轉換為 'int'，資料可能遺失
+     1>Source.cpp(258): warning C4267: '=' : 將 'size_t' 轉換為 'int'，資料可能遺失
+     1>Source.cpp(320): warning C4244: '=' : 將 'double' 轉換為 'short'，由於型別不同，可能導致資料遺失
+     1>Source.cpp(533): warning C4244: '=' : 將 'double' 轉換為 'uchar'，由於型別不同，可能導致資料遺失
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\張睿哲\Desktop\VS12_張睿哲_E24031019_Project\hw3\x64\Debug\hw3.exe" /INCREMENTAL /NOLOGO opencv_nonfree2410d.lib opencv_calib3d2410d.lib opencv_contrib2410d.lib opencv_core2410d.lib opencv_features2d2410d.lib opencv_flann2410d.lib opencv_gpu2410d.lib opencv_highgui2410d.lib opencv_imgproc2410d.lib opencv_legacy2410d.lib opencv_ml2410d.lib opencv_objdetect2410d.lib opencv_ts2410d.lib opencv_video2410d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\張睿哲\Desktop\VS12_張睿哲_E24031019_Project\hw3\x64\Debug\hw3.pdb" /SUBSYSTEM:CONSOLE /STACK:"200000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\張睿哲\Desktop\VS12_張睿哲_E24031019_Project\hw3\x64\Debug\hw3.lib" /MACHINE:X64 x64\Debug\Source.obj
+         hw3.vcxproj -> C:\Users\張睿哲\Desktop\VS12_張睿哲_E24031019_Project\hw3\x64\Debug\hw3.exe
+     1>專案 "C:\Users\張睿哲\Desktop\VS12_張睿哲_E24031019_Project\hw3\hw3\hw3.vcxproj" (Build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:02.92
